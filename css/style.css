@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #000000;
+}
+a:hover{
+    color: #fff;
+}
+nav a{
+    text-decoration: none;
+    margin: 1% 2% 1% ;
+    padding-top: 0%;
+    color: white;
+    
+  
+}
+nav a:hover{
+    color: red;
+    opacity: 2;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0505;
+    }
+  }
+.nav{
+    text-align: center;
+    padding-top: 1%;
+    border-color: azure;
+    border-width: 2px;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(217, 6, 27, 0.8) -10px 5px 10px 0px;
+    
+
+
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0% 20% 0% 2%;
+    color: red;
+}
+.subscribe{
+  
+    text-align: end;
+    
+    
+    
+}
+input{
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    color: #000000;
+    background-color: rgb(232, 8, 8);
+}
+.sec-1{
+    display: flex;
+}
+.n-p-container, .profile-pic-container{
+    margin: 2% 5% 0%;
+    padding: 1%;
+}
+.n-p-container{
+    margin-top: 15% ;
+    text-align: center;
+}
+.name-container{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    
+    
+}
+.profession-container{
+    font-size: 1.3rem;
+    padding: 8%;
+    padding-top: 0%;
+    color: red;
+}
+
+#contactme{
+    text-align: center;
+    display: flex;
+  }
+.profile-pic-container{
+    width: 50%;
+    height: 80vh;
+    margin-top: 2%;
+}
+.profcile-pic{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0%;
+    justify-content: center;
+    padding: auto;
+}
+.address{
+    width: 70px;
+    height: 10px;
+    display: flex;
+    margin: 6% 20% 0% 0%;
+    text-align: center;
+    display: flex;
+    font-size: small;
+}
+a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.address img{
+    width: fit-content;
+    height: 25px;
+    margin: 1px;
+}
+.about-me{
+    display: flex;
+    height: 100vh;
+    padding-top: 5%;
+}
+.about-me img{
+    width: 40%;
+    height: 80vh;
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+}
+.info{
+    padding: 15% 0% 15% 5%;
+    text-align: center;
+}
+#education, #experience, #skills, #contact-me{
+    width: 100%;
+    height: 100vh;
+    padding: 10%;
+}
+.about-text, .education-container, .experience-container, .skills-container, .contact-p{
+    border: 1px solid rgb(217, 6, 6);
+    box-shadow: rgba(217, 6, 27, 0.8) 0px 10px 30px;
+    font-size: larger;
+    padding: 10%;   
+   
+}
+.about-text,.education-container,.experience-container, .skills-container{
+ padding: 4%;
+}
+.education-container h3, .experience-container h3, .skills-container h3{
+    width: fit-content;
+    height: fit-content;
+    padding: 4px;
+    box-shadow: rgba(217, 6, 27, 0.8) 0px 4px 15px;
+    background-color: rgb(226, 8, 8);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(237, 0, 0, 0.3);
+	background-color: #000000;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #020000;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #d70000;
+}
+.contact-p input{
+    width: 92.5%;
+    margin: 1%;
+    padding-left: 1%;
+}
+
+.n-m-container input{
+    width: 45%;
+}
+#m-button{
+    width:200px;
+    color: #000000;
+    padding: 0%;
+}
+
+
+.footer-bottom p{
+    margin-top: 2%;
+    text-align: center;
+    padding: 2%;
+    background-color: #000000;
+    font-size: 14px;
+    word-spacing: 2px;
+    box-shadow: rgba(217, 6, 27, 0.8) -10px -5px 10px 0px;
+ }
+ .progress{
+    margin: 1% 0% 1% 0%;
+
+ }
+ .progress-bar{
+    background-color: #ba3535;
+    color: #070707;
+    
+ }
+ @media only screen and (max-width: 780px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+
+    .sec-1{
+        display: inline;
+    }
+    .info {
+        text-align: left;
+    }
+    .info h1{
+        padding-left: 7%;
+    }
+    
+    .about-text{
+        width: 80%;
+        margin: 7%;
+        margin-top: 0%;
+
+    }
+     .profile-pic-container,.about-me img{
+        content-visibility: hidden;
+        width: 0;
+        height: 0;
+       
+    }
+    .n-p-container{
+        background: transparent;  
+        height: 100vh; 
+        width: 100%;
+        margin: 0;
+        
+    }
+    .sec-1, .n-p-container,.n-p-container h3, .name-container, .profession-container{
+        background: transparent;
+    }
+    .home-container{
+        width: 100%;
+        background-image: url("/image/amiii.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #about-me{
+        height: 80vh;
+    }
+    #education, #experience, #skills, #contact-me{
+        
+        height: 80vh;
+        padding: 15%;
+        
+  }
+  .n-p-container{
+    margin: 0%;
+    padding:50% 2% 30% 2% ;
+  }
+  .address p, .nav a{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .address{
+    margin: 5%;
+    background: transparent;
+    text-align: center;
+
+  }
+}
+@media screen and (max-width: 1180px) {
+   .nav a{
+    width :fit-content;
+    font-size: small;
+    margin: 1%;
+    align-items: center;
+   }
+   
+   .address p{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  }

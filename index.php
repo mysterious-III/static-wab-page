@@ -140,6 +140,7 @@
   <div class="col-12 contact-me" id="contact-me">
     <h1>Contact Me</h1>
     <div class="contact-p">
+      <form action="comment.php" method="post">
         <div class="n-m-container">
           <input type="text" name="name" id="Name" placeholder="Name">
         <input type="email" name="email" id="email" placeholder="Email">
@@ -153,6 +154,7 @@
       <div class="address"><a href="https://www.amanialpha93@gmail.com"><img src="/image/icon/email.png" alt="email"><p>amanialpha93@gmail.com</p></a></div>
       <div class="address"><a href="https://github.com/mysterious-III"><img src="/image/icon/github.png" alt="git"><p>github.com/mysterious-III</p></a></div>
     </div>
+      </form>
     </div>
 
   </div>
